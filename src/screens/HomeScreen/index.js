@@ -8,7 +8,9 @@ import HomeSearch from '../../components/HomeSearch';
 const HomeScreen = (props) => {
   return (
     <View>
-      <HomeMap />
+      <View style={styles.mapContainer}>
+        <HomeMap />
+      </View>
       <Message />
       <HomeSearch />
     </View>
